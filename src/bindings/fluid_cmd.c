@@ -379,8 +379,8 @@ static const fluid_cmd_t fluid_commands[] =
         "player_cont                Continue playing"
     },
     {
-        "player_step", "player", fluid_handle_player_step,
-        "player_step num            Move forward/backward in current song to +/-num ticks"
+        "player_seek", "player", fluid_handle_player_step,
+        "player_seek num            Move forward/backward in current song to +/-num ticks"
     },
     {
         "player_next", "player", fluid_handle_player_next_song,
